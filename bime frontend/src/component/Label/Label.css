@@ -1,0 +1,19 @@
+.label {
+    margin-top: 1.2rem;
+    margin-bottom: 2.3rem;
+    /* background-color: white; */
+    padding: 1rem;
+    border-radius: 2px;
+    box-shadow: 1px 2px 5px #dfdbdb;
+    color: #1434A5;
+}
+
+@media screen and (max-width: 600px) {
+    .label {
+        align-self: center;
+        box-shadow: none;
+        margin-top: 2.3rem;
+        margin-bottom: 1rem;
+    }
+
+  }

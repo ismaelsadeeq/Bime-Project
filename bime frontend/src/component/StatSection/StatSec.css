@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+    .main-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        /* width: 110%; */
+    }
+
+  }

@@ -1,0 +1,17 @@
+.box-children {
+    width:38%; 
+    height: 17rem; 
+    background-color:#f7faff; 
+    padding:2rem;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .box-children {
+        width: 89%;
+        padding: 1rem;
+        margin: 0;
+    }
+     
+  }

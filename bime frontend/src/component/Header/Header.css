@@ -1,0 +1,32 @@
+.header {
+    /* border: 1px solid black; */
+    width: 94%;
+    margin-top: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 2rem;
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 2px;
+    box-shadow: 1px 2px 5px #dfdbdb;
+}
+.toggle {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+      margin-top: 0;
+      box-shadow: none;
+      width: 88%;
+      justify-content: space-between;
+      padding-left: 0.4rem;
+    }
+    .toggle {
+      display: block;
+    }
+    
+  }
